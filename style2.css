@@ -50,6 +50,8 @@ body {
 .btn button:hover{
     background-color: lightblue;
     color: blue;
+    border-color: white;
+    cursor: pointer;
 }
 
 .list{
@@ -112,6 +114,23 @@ body {
     width: 107%;
     font-size: 13px;
 }
+.btn-1 button{
+    color: gray;
+    border: none;
+    background-color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: -375px;
+    height: 40px;
+    margin-top: 28.5rem;
+    cursor: pointer;
+}
+.btn-1 button:hover{
+    border-color: white;
+    color: black;
+    font-weight:300px;
+}
  .btn-2 button{
 
     color: white;
@@ -123,6 +142,11 @@ body {
     height: 40px;
     margin-top: 28.5rem;
     cursor: pointer;
+}
+.btn-2 button:hover{
+    border:2px solid blue;
+    color: white;
+    font-weight: 300px; 
 }
       /* STEP-2 START */
 
